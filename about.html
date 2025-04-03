@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tribbin - About Us</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Tribbin</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="community.html">Community Engagement</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Tribbin</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="features.html" onclick="toggleMenu()">Features</a></li>
+                <li><a href="community.html" onclick="toggleMenu()">Community Engagement</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <h1>About Us</h1>
+    </div>
+
+    <section id="about">
+        <h1 class="title">Our Mission</h1>
+        <p>
+            Designing a system to track waste segregation and reward residents involves several key components.
+        </p>
+        <h2>Waste Segregation Guidelines and Categories</h2>
+        <ul>
+            <li>Define clear categories for waste segregation (e.g., organic, recyclable, non-recyclable).</li>
+            <li>Educate residents on what items go into each category through workshops, pamphlets, or a mobile app.
+            </li>
+        </ul>
+
+        <h2>Tracking Mechanism</h2>
+        <ul>
+            <li>Smart Bins: Install smart bins equipped with sensors that can identify and sort waste into respective
+                categories.</li>
+            <li>QR Codes/RFID Tags: Provide residents with QR codes or RFID tags linked to their households, which they
+                scan when disposing of waste.</li>
+        </ul>
+
+        <h2>Data Collection</h2>
+        <ul>
+            <li>Collect data from smart bins or scanning activities to monitor how well residents segregate waste.</li>
+            <li>Use IoT (Internet of Things) devices or a centralized database to store this data securely.</li>
+        </ul>
+
+        <h2>Scoring and Reward System</h2>
+        <ul>
+            <li>Scoring Algorithm: Develop an algorithm to calculate segregation accuracy based on the data collected
+                (e.g., percentage of correctly segregated waste).</li>
+            <li>Reward Points: Assign reward points or credits to residents based on their segregation performance.
+                Points could be redeemable for various rewards (e.g., discounts on utilities, local services, or
+                eco-friendly products).</li>
+        </ul>
+
+        <h2>Communication and Feedback</h2>
+        <ul>
+            <li>Provide real-time feedback to residents through a mobile app or website, showing their segregation
+                performance and accumulated rewards.</li>
+            <li>Send notifications or emails to encourage and educate residents on improving their segregation
+                practices.</li>
+        </ul>
+
+        <h2>Community Engagement</h2>
+        <ul>
+            <li>Foster community engagement through competitions, challenges, or leaderboards based on segregation
+                performance.</li>
+            <li>Organize community events or workshops to raise awareness and celebrate achievements.</li>
+        </ul>
+
+        <h2>Administration and Oversight</h2>
+        <ul>
+            <li>Assign an administrator or a committee responsible for managing the system, overseeing data integrity,
+                and resolving any issues or disputes.</li>
+            <li>Ensure transparency in how rewards are calculated and distributed.</li>
+        </ul>
+
+        <h2>Scaling and Sustainability</h2>
+        <ul>
+            <li>Plan for scalability as the community grows, ensuring the system can accommodate more residents and
+                data.</li>
+            <li>Continuously evaluate and improve the system based on feedback and technological advancements.</li>
+        </ul>
+
+        <h2>Legal and Privacy Considerations</h2>
+        <ul>
+            <li>Address data privacy concerns by implementing secure data handling practices and obtaining consent from
+                residents to collect and use their data.</li>
+            <li>Comply with local regulations regarding waste management and data protection.</li>
+        </ul>
+
+        <h2>Promotion and Adoption</h2>
+        <ul>
+            <li>Launch a promotional campaign to encourage initial adoption and ongoing participation.</li>
+            <li>Highlight success stories and benefits of the system to inspire residents to participate actively.</li>
+        </ul>
+
+        <p>
+            By integrating these elements, you can create a comprehensive waste segregation tracking and reward system
+            that not only incentivizes residents but also promotes sustainable practices within the community. Regular
+            evaluation and community feedback will be crucial to maintaining engagement and effectiveness over time.
+        </p>
+    </section>
+
+    <footer>
+        <p>Copyright &#169; 2023 Tribbin. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
